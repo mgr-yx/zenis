@@ -3,28 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Effect Animation</title>
-    <style>
-        .typing {
-            border-right: 2px solid;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 0;
-            animation: typing 4s steps(30) forwards, blink 0.5s step-end infinite;
-        }
-
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-
-        @keyframes blink {
-            from, to { border-color: transparent; }
-            50% { border-color: black; }
-        }
-    </style>
+    <title>Zenis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="typing">Hello, World!</h1>
+    <div class="typing-effect">
+        <h1>Hello, welcome to Zenis!</h1>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
